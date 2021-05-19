@@ -18,6 +18,11 @@
 - The project uses html, CSS and JavaScript. We primarily used HTML and JavaScript to style the site and create a simple, clean interface. To facilitate the process of styling the application, we used CSS. This webpage is compactable for mobile screen also.
 - The header on the Home Page allows any visitor to view the different categories. User can access these by just clicking on it. Users can also click on About and contact us button to know more.
 <br /> <br />
+## Advantages<br /> 
+-You will save money on designer fees.
+-Doing it yourself can be costly, we can't afford for some of the machinery.
+-Less time taking for designing your interior.
+
 ## Key Features<br /> 
 - Booking appointment in just few steps as per your schedule.
 - Packages are available and can be customized.
