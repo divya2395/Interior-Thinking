@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Final.css">
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js"></script>
+    <script src="formV.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&family=Ravi+Prakash&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com">
+    <title>Dream House</title>
+</head>
+<body>
+
+    <div class="header">
+        <nav class="navigation">
+            <a href="#"><img src="images/logo_4.png" alt="Logo"></a>
+            <ul>
+                <li><a href="banner.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                <li><a href="AboutUs.html"><i class="fa fa-id-badge" aria-hidden="true"></i></a></li>
+                <li><a href="Gallery.html"><i class="fa fa-file-image-o" aria-hidden="true"></i></a></li>
+                <li><a href="Appointmentform.html"><i class="fa fa-wpforms" aria-hidden="true"></i></a></li>
+                <li><a href="ContactUsS.html"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+                <li><a href="Team.html"><i class="fa fa-female" aria-hidden="true"></i></a></li>
+                <li><a href="Game.html"><i class="fa fa-gamepad" aria-hidden="true"></i></a></li>
+            </ul>
+
+    </nav>
+  </div>
+
+
+      <!--Appointmentform-->
+
+      <section id="Appointmentform">
+
+        <div class="appimg">
+
+        <div class="Appontlogo">
+                <img src="images/appointlogo.jpg" alt="appointlogo">
+           </div>
+    
+           <div class="Appont-text">
+                  <h1>Give Us A Shout</h1>
+             </div>
+
+        <form action="formsubmit.html" method="GET" target="_blank">
+
+            <div class="container">
+                 
+                
+                <label for="name" class="name1"><b>Name</b></label>
+                <br>
+                 <input type="text" name="name" required>
+
+                 <br><br>
+
+                 <label for="phonenumber" class="phone1" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required><b>Phone Number</b></label>
+                 <br>
+                 <input type="text" name="email" required>
+
+                <br><br>
+
+                 <label for="email" class="email1"><b>Email</b></label>
+                 <br>
+                 <input type="text" name="email" placeholder="myname@example.com" required>
+
+                 <br><br>
+                 
+                 <label for="gender"><b>Gender</b></label>
+                 <br>
+                 <input type="radio" id="male" name="gender" value="male">
+                 <label for="male">Male</label><br>
+                 <input type="radio" id="female" name="gender" value="female">
+                 <label for="female">Female</label><br>
+                 <input type="radio" id="other" name="gender" value="other">
+                 <label for="other">Other</label>
+
+                 <br><br>
+
+                 <label for="pin">PIN</label>
+                 <br>
+                 <input type="text" name="pin" maxlength="10">
+                 <br><br>
+
+                 <label for="type"><b>Choose a type</b></label><br>
+                 <select id="ctype" name="ctype" required>
+                  <option value="">Choose a type</option>
+                   <option value="Res">Residential</option>
+                   <option value="Comm">Commertial</option>
+                   <option value="Oth">Other</option>
+                 </select>
+
+                 <br><br>
+
+                 <label for="query"><b>Queries</b></label><br>
+                 <input type="checkbox" id="query3" name="query3" value="Query">
+                 <label for="query3">Call Back</label><br>
+                 <input type="checkbox" id="query5" name="query5" value="Query">
+                 <label for="query5">Services</label><br>
+                 <input type="checkbox" id="query6" name="query6" value="Query">
+                 <label for="query6">Other</label>
+
+                 <br><br>
+
+                 <label for="bio"><b>Comments</b></label> <br>
+                 <textarea name="biography" cols="50" rows="3" required></textarea>
+
+                 <br><br>
+
+                 <div>  
+                    <button type="submit" class="btn" onClick="ValidateForm(this.form)" value="Send Information">Submit</button>
+                    <input type="reset" class="btn2" value="Reset the Form">
+                  </div>  
+                
+            </div>
+    </form>
+
+   </div>
+
+   </section>
+
+</body>
+</html>
