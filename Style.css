@@ -1,9 +1,18 @@
 
     /* CSS Code */
     /* Heading */
-    h1 {
-        color: rgb(238, 20, 20);
+
+    #main{
+        background-color: rgb(138, 188, 189);
+    }
+    #main h1 {
+        color: rgb(57, 92, 94);
         font-size: 45px;
+        padding: 90px;
+    }
+    #main p{
+        font-family: 'Ravi Prakash', cursive;
+        margin-top: -90px;
     }
   
     /* 3*3 Grid */
@@ -26,10 +35,8 @@
         border: 1px solid rgb(25, 139, 69);
         margin: auto;
         border-radius: 4px;
-        font-family: Verdana, 
-            Geneva, Tahoma, sans-serif;
-  
-        background-color: rgb(31, 190, 25);
+        font-family: 'Ravi Prakash', cursive; 
+        background-color: black;
         color: white;
         font-size: 20px;
         cursor: pointer;
@@ -37,9 +44,7 @@
   
     /* Player turn space */
     #print {
-        font-family: Verdana, 
-            Geneva, Tahoma, sans-serif;
-  
+        font-family: 'Ravi Prakash', cursive;
         color: rgb(22, 19, 17);
         font-size: 20px;
     }
@@ -51,9 +56,11 @@
   
     /* Game Instruction Text */
     #ins {
-        font-family: Verdana, 
-            Geneva, Tahoma, sans-serif;
-              
-        color: rgb(69, 10, 207);
-        font-size: 17px;
+        font-family: 'Ravi Prakash', cursive;     
+        color: rgb(38, 70, 71);
+        font-size: 25px;
+        font-weight: 10px;
+    }
+    #ins p{
+        margin-top: 40px;
     }
