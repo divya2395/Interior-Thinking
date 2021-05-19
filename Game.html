@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Final.css">
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&family=Ravi+Prakash&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com">
+    <title>Dream House</title>
+</head>
+<body>
+
+    <div class="header">
+        <nav class="navigation">
+            <a href="#"><img src="images/logo_4.png" alt="Logo"></a>
+            <ul>
+                <li><a href="banner.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                <li><a href="AboutUs.html"><i class="fa fa-id-badge" aria-hidden="true"></i></a></li>
+                <li><a href="Gallery.html"><i class="fa fa-file-image-o" aria-hidden="true"></i></a></li>
+                <li><a href="Appointmentform.html"><i class="fa fa-wpforms" aria-hidden="true"></i></a></li>
+                <li><a href="ContactUsS.html"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+                <li><a href="Team.html"><i class="fa fa-female" aria-hidden="true"></i></a></li>
+                <li><a href="Game.html"><i class="fa fa-gamepad" aria-hidden="true"></i></a></li>
+            </ul>
+
+    </nav>
+  </div>
+
+  <div id="main">
+    <h1>TIC TAC TOE</h1>
+
+    <!-- Game Instructions -->
+    <p id="ins">Tap TO Start<br>First Player as "X" And Second as "0"
+    </p>
+
+    <br><br>
+    <!-- 3*3 grid of Boxes -->
+    <input type="text" id="b1" onclick=
+        "myfunc_3(); myfunc();" readonly>
+
+    <input type="text" id="b2" onclick=
+        "myfunc_4(); myfunc();" readonly>
+
+    <input type="text" id="b3" onclick=
+        "myfunc_5(); myfunc();" readonly>
+    <br><br>
+
+    <input type="text" id="b4" onclick=
+        "myfunc_6(); myfunc();" readonly>
+          
+    <input type="text" id="b5" onclick=
+        "myfunc_7(); myfunc();" readonly>
+
+    <input type="text" id="b6" onclick=
+        "myfunc_8(); myfunc();" readonly>
+    <br><br>
+
+    <input type="text" id="b7" onclick=
+        "myfunc_9(); myfunc();" readonly>
+
+    <input type="text" id="b8" onclick=
+        "myfunc_10();myfunc();" readonly>
+
+    <input type="text" id="b9" onclick=
+        "myfunc_11();myfunc();" readonly>
+
+    <!-- Grid end here  -->
+    <br><br><br>
+    <!-- Button to reset game -->
+    <button id="but" onclick="myfunc_2()">
+        RESET
+    </button>
+
+    <br><br>
+    <!-- Space to show player turn -->
+    <p id="print"></p>
+
+</div>
+</body>
+
+</html>
